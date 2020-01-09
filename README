@@ -1,22 +1,21 @@
-Welcome to C-noise ! C-noise is an open source noise generation program which
-allow one to explore the colors of noise. 
+## Welcome to C-noise ! 
 
-A) Listen to noise in real time
-B) Generate noise data for scientific purposes
+C-noise is an open source noise generation program which allows one to explore the colors of noise. 
 
-C-noise makes use of ALSA, so be sure to have alsa-utils, asla-lib, and
-alsa-headers installed. To install C-noise simply do
+* Listen to noise in real time
+* Generate noise data for scientific purposes
+
+C-noise makes use of ALSA, so be sure to have alsa-utils, asla-lib, and alsa-headers installed. To install C-noise simply do
 
 make
 sudo make install
 
-Volume Control
-------------------------------------------------------------------------------
+## Volume Control
 To decrease volume ... hold 9 ...
 To increase volume ... hold 0 ...
 
-Examples: Listen to noise 
-------------------------------------------------------------------------------
+## Examples: Listen to noise 
+
 Generate 60s of white noise:
 	cnoise -c white
 
@@ -30,9 +29,8 @@ Generate 300s of pink noise with depth and alpha
 	alpha controls the degree of autocorrelation. Alpha is always
 	between 0 and 2 and always defaults to 1.  
 
+## Examples: Generate noise data
 
-Examples: Generate noise data
-------------------------------------------------------------------------------
 Generate 1024 points of azure noise
 	cnoise -c azure -w 1024
 
