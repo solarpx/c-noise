@@ -15,7 +15,7 @@ C-noise makes use of ALSA, so be sure to have alsa-utils, asla-lib, and alsa-hea
 
 C-noise generates colored noise by simualting spectal power densities in real time. The plot below shots the simulated power spectral densities as a function of frequency for various colors of noise: **violet, azure(blue), white, pink, brown(red)**. The power spectral densities are arbitrarily normalized such that the value of the spectra are approximately equivalent near 1 kHz. Note the slope of the power spectral density for each spectrum provides the context for the respective electromagnetic/color analogy.
 
-![Colors of noise](https://en.wikipedia.org/wiki/Colors_of_noise#/media/File:The_Colors_of_Noise.png "Colors of Noise")
+![Colors of noise](https://github.com/mesoic/c-noise/blob/master/samples/cnoise.png "Colors of Noise")
 
 
 ## Examples: Listen to noise 
